@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.example.tanhsunweng.wiboapp.ScanningResult">
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginTop="200px">
+
+            <ImageView
+                android:layout_width="400px"
+                android:layout_height="400px"
+                android:layout_centerInParent="true"
+                android:id="@+id/imageView1"/>
+
+            <ImageView
+                android:layout_width="149dp"
+                android:layout_height="232dp"
+                android:src="@drawable/none"
+
+                android:tag=""
+                android:id="@+id/nonecloth"
+                android:layout_marginLeft="60px"
+                android:layout_marginTop="50px"/>
+
+
+        </GridLayout>
+
+    </TableLayout>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/table">
+
+        <ImageButton
+            android:id="@+id/hat_imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hat_button"
+            android:layout_gravity="bottom"/>
+
+        <ImageButton
+            android:id="@+id/scarf_imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/scarf_button"
+            android:layout_toRightOf="@+id/face1_imageView"
+            android:layout_gravity="bottom"/>
+
+        <ImageButton
+            android:id="@+id/coat_imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/coat_button"
+            android:layout_toRightOf="@+id/face2_imageView"
+            android:layout_gravity="bottom"/>
+
+    </TableRow>
+
+
+
+
+</RelativeLayout>
+

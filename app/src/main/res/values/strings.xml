@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">wiboAPP</string>
+
+    <string name="title_section1">Morning</string>
+    <string name="title_section2">Afternoon</string>
+    <string name="title_section3">Evening</string>
+    <string name="title_section4">Checklist</string>
+    <string name="title_section5">Check</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="errorMSG">Ready</string>
+    <string name="title_activity_scanning_result_activity">scanning_result_activity</string>
+    <string name="title_activity_scanning_result">ScanningResult</string>
+    <string name="title_activity_scanning_result2">ScanningResult2</string>
+</resources>
